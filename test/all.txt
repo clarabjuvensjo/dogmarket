@@ -1,0 +1,149 @@
+unknown command
+list auctions
+list dogs
+list users
+register new dog
+fIdo
+tax
+1
+1
+register new dog
+
+PUCKEN
+
+LaBrADOR
+
+no number
+10
+
+no number
+10
+increase age
+unknown dog
+increase age
+FIDO
+LIST dogs
+0
+list dogs
+10
+list dogs
+20
+register new user
+
+CLARA
+register new user
+VIKTOR
+register new user
+CAROLINE
+register new user
+CHRISTIAN
+
+start auction
+
+unknown dog
+start auction
+fido
+start auction
+fido
+list bids
+FIDO
+make bid
+unknown user
+
+make bid
+claRA
+unknown dog
+make bid
+Clara
+fido
+-1
+10
+make bid
+viktor
+fido
+20
+make bid
+caroline
+fido
+30
+make bid
+Christian
+fido
+40
+make bid
+clara
+fido
+50
+start auction
+pucken
+list auctions
+list bids
+unknown dog
+list bids
+fido
+list bids
+pucken
+close auction
+unknown dog
+close auction
+fido
+close auction
+pucken
+list auctions
+start auction
+fido
+start auction
+pucken
+list auctions
+list dogs
+0
+list users
+remove dog
+unknown dog
+remove dog
+fido
+remove dog
+pucken
+list auctions
+list dogs
+list users
+register new dog
+fIdo
+tax
+1
+1
+register new dog
+PUCKEN
+LaBrADOR
+10
+10
+start auction
+fido
+list users
+list dogs
+0
+make bid
+clara
+fido
+-1
+10
+start auction
+pucken
+make bid
+Clara
+pucken
+10
+list auctions
+close auction
+fido
+list auctions
+list dogs
+0
+list users
+remove user
+clara
+list auctions
+list dogs
+0
+list users
+exit

@@ -1,0 +1,397 @@
+Command>
+unknown command
+Error: Unknown command
+Command>
+list auctions
+Error: No auctions in register
+Command>
+list dogs
+Error: No dogs in register
+Command>
+list users
+Error: No users in register
+Command>
+register new dog
+Dog name>
+fIdo
+Breed>
+tax
+Age>
+1
+Weight>
+1
+Fido is added to the register
+Command>
+register new dog
+Dog name>
+
+Error: Dog name is mandatory
+Dog name>
+PUCKEN
+Breed>
+
+Error: Breed is mandatory
+Breed>
+LaBrADOR
+Age>
+
+Error: Age is mandatory
+Age>
+no number
+Error: Age must be an integer
+Age>
+10
+Weight>
+
+Error: Weight is mandatory
+Weight>
+no number
+Error: Weight must be an integer
+Weight>
+10
+Pucken is added to the register
+Command>
+increase age
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+increase age
+Dog name>
+FIDO
+Command>
+LIST dogs
+Minimum tail length>
+0
+Fido Tax 2 years 1 kg tail=3.7
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+list dogs
+Minimum tail length>
+10
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+list dogs
+Minimum tail length>
+20
+
+Command>
+register new user
+User name>
+
+Error: User name is mandatory
+User name>
+CLARA
+Clara is added to the register
+Command>
+register new user
+User name>
+VIKTOR
+Viktor is added to the register
+Command>
+register new user
+User name>
+CAROLINE
+Caroline is added to the register
+Command>
+register new user
+User name>
+CHRISTIAN
+Christian is added to the register
+Command>
+
+Error: Unknown command
+Command>
+start auction
+Dog name>
+
+Error: Dog name is mandatory
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+start auction
+Dog name>
+fido
+Fido has been put up for auction in auction #1
+Command>
+start auction
+Dog name>
+fido
+Error: Fido is already up for auction
+Command>
+list bids
+Dog name>
+FIDO
+Error: No bids registered yet for Fido
+Command>
+make bid
+User name>
+unknown user
+Error: Unknown user is not in register
+Command>
+
+Error: Unknown command
+Command>
+make bid
+User name>
+claRA
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+make bid
+User name>
+Clara
+Dog name>
+fido
+Bid (minimum 1)>
+-1
+Error: Bid (minimum 1)
+Bid (minimum 1)>
+10
+Bid made
+Command>
+make bid
+User name>
+viktor
+Dog name>
+fido
+Bid (minimum 11)>
+20
+Bid made
+Command>
+make bid
+User name>
+caroline
+Dog name>
+fido
+Bid (minimum 21)>
+30
+Bid made
+Command>
+make bid
+User name>
+Christian
+Dog name>
+fido
+Bid (minimum 31)>
+40
+Bid made
+Command>
+make bid
+User name>
+clara
+Dog name>
+fido
+Bid (minimum 41)>
+50
+Bid made
+Command>
+start auction
+Dog name>
+pucken
+Pucken has been put up for auction in auction #2
+Command>
+list auctions
+Auction #1: Fido. Top bids: [Clara 50 kr Christian 40 kr Caroline 30 kr]
+Auction #2: Pucken. Top bids: []
+Command>
+list bids
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+list bids
+Dog name>
+fido
+Here are the bids for this auction
+Clara 50 kr
+Christian 40 kr
+Caroline 30 kr
+Viktor 20 kr
+Command>
+list bids
+Dog name>
+pucken
+Error: No bids registered yet for Pucken
+Command>
+close auction
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+close auction
+Dog name>
+fido
+The auction for Fido is closed. The winning bid was 50 kr and was made by Clara
+Command>
+close auction
+Dog name>
+pucken
+The auction is closed. No bids where made for Pucken
+Command>
+list auctions
+Error: No auctions in register
+Command>
+start auction
+Dog name>
+fido
+Error: Fido already has an owner
+Command>
+start auction
+Dog name>
+pucken
+Pucken has been put up for auction in auction #3
+Command>
+list auctions
+Auction #3: Pucken. Top bids: []
+Command>
+list dogs
+Minimum tail length>
+0
+Fido Tax 2 years 1 kg tail=3.7, owned by Clara
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+list users
+Caroline []
+Christian []
+Clara [Fido]
+Viktor []
+Command>
+remove dog
+Dog name>
+unknown dog
+Error: Unknown dog is not in register
+Command>
+remove dog
+Dog name>
+fido
+Fido is removed from the register
+Command>
+remove dog
+Dog name>
+pucken
+Pucken is removed from the register
+Command>
+list auctions
+Error: No auctions in register
+Command>
+list dogs
+Error: No dogs in register
+Command>
+list users
+Caroline []
+Christian []
+Clara []
+Viktor []
+Command>
+register new dog
+Dog name>
+fIdo
+Breed>
+tax
+Age>
+1
+Weight>
+1
+Fido is added to the register
+Command>
+register new dog
+Dog name>
+PUCKEN
+Breed>
+LaBrADOR
+Age>
+10
+Weight>
+10
+Pucken is added to the register
+Command>
+start auction
+Dog name>
+fido
+Fido has been put up for auction in auction #4
+Command>
+list users
+Caroline []
+Christian []
+Clara []
+Viktor []
+Command>
+list dogs
+Minimum tail length>
+0
+Fido Tax 1 years 1 kg tail=3.7
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+make bid
+User name>
+clara
+Dog name>
+fido
+Bid (minimum 1)>
+-1
+Error: Bid (minimum 1)
+Bid (minimum 1)>
+10
+Bid made
+Command>
+start auction
+Dog name>
+pucken
+Pucken has been put up for auction in auction #5
+Command>
+make bid
+User name>
+Clara
+Dog name>
+pucken
+Bid (minimum 1)>
+10
+Bid made
+Command>
+list auctions
+Auction #4: Fido. Top bids: [Clara 10 kr]
+Auction #5: Pucken. Top bids: [Clara 10 kr]
+Command>
+close auction
+Dog name>
+fido
+The auction for Fido is closed. The winning bid was 10 kr and was made by Clara
+Command>
+list auctions
+Auction #5: Pucken. Top bids: [Clara 10 kr]
+Command>
+list dogs
+Minimum tail length>
+0
+Fido Tax 1 years 1 kg tail=3.7, owned by Clara
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+list users
+Caroline []
+Christian []
+Clara [Fido]
+Viktor []
+Command>
+remove user
+User name>
+clara
+Clara is removed from the register
+Command>
+list auctions
+Auction #5: Pucken. Top bids: []
+Command>
+list dogs
+Minimum tail length>
+0
+Pucken Labrador 10 years 10 kg tail=10.0
+Command>
+list users
+Caroline []
+Christian []
+Viktor []
+Command>
+exit
+Goodbye!
